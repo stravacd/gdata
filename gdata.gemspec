@@ -1,3 +1,8 @@
+require 'rubygems'
+require 'rake/gempackagetask'
+require 'rake/rdoctask'
+require 'rake/testtask'
+
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.author = 'Jeff Fisher, Trevor Johns'
